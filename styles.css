@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: Quicksand;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Quicksand;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5667px;
+}
+
+
+/* Responsive Grid Columns */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* Clear Float */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.banner {
+    width: 100%;
+    background-position: fixed;
+    background: url('assets/main-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.banner-text {
+    margin: -30% 20%;
+    color: white;
+    width: 30%;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.btn-banner {
+    background: #de6c17;
+    color: white;
+    margin: 12.5px 208.5px 0 2px;
+    padding: 6.5px 16.5px 6px 17px;
+    border-radius: 2px;
+}
+
+.services {
+    margin: 10% 35%;
+}
+
+.services-card {
+    width: 24rem;
+    margin: auto 2%;
+}
+
+.services-link {
+    color: #de6c17;
+    font-weight: 600;
+}
+
+
+/*
+.banner-text p {
+    font-size: 12px;
+} */
+
+
+/* Media Queries */
+
+
+/* Desktops */
+
+
+/* @media only screen and (max-width: 1140px) {
+    .services {
+        margin: 10% 35%;
+    }
+    .services-card {
+        width: 24rem;
+        margin: auto 2%;
+    }
+} */
+
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-family: Quicksand;
+        font-size: 22px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+    }
+    h3 {
+        font-family: Quicksand;
+        font-size: 12px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 15.4px;
+    }
+    p {
+        font-family: Quicksand;
+        font-size: 12px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    blockquote {
+        font-family: Quicksand;
+        font-size: 18px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    pre {
+        font-family: Quicksand;
+        font-size: 13px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 18.5667px;
+    }
+    .banner-text {
+        margin: -35% 10%;
+        color: white;
+        width: 30%;
+        overflow: hidden;
+        z-index: 999;
+    }
+    .services {
+        margin: 5% auto;
+    }
+    .services-card {
+        border: 1px solid #cecece;
+        padding: 5.4%;
+        margin-left: -2%;
+    }
+    .card {
+        display: none!important;
+    }
+    .desktop-only {
+        display: none!important;
+    }
+}
+
+
+/* @media only screen and (max-width: 1024px) {
+    .services {
+        margin: 5% 25%;
+    }
+    .card {
+        display: none!important;
+    }
+    .services-card {
+        border: 1px solid #cecece;
+        padding: 6%!important;
+    }
+} */
+
+@media only screen and (max-width: 320px) {
+    .services {
+        margin: 5% auto;
+    }
+    .services-card {
+        border: 1px solid #cecece;
+        padding: 5.4%;
+        margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    h1 {
+        font-family: Quicksand;
+        font-size: 20px!important;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+    }
+    h3 {
+        font-family: Quicksand;
+        font-size: 12px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 15.4px;
+    }
+    p {
+        font-family: Quicksand;
+        font-size: 12px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 0.3rem!important;
+    }
+    blockquote {
+        font-family: Quicksand;
+        font-size: 16px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    pre {
+        font-family: Quicksand;
+        font-size: 13px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 18.5667px;
+    }
+    .banner-text {
+        margin: -35% 10%;
+        color: white;
+        width: 50%;
+        overflow: hidden;
+        z-index: 999;
+    }
+    .btn-banner {
+        background: #de6c17;
+        color: white;
+        margin: 5% auto;
+        padding: 2% 5%;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    .services {
+        margin: 5% auto;
+    }
+    .services-card {
+        border: 1px solid #cecece;
+        padding: 5.4%;
+        margin-left: -2%;
+    }
+}
